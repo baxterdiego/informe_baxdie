@@ -1,13 +1,22 @@
+import ReactMarkdown from "react-markdown"
+import comparacion from "../docs/04_comparacion_baxdie.md?raw"
+
 function Comparacion() {
   return (
-    <section>
-      <h2 className="text-2xl font-bold mb-4">
-        Comparación Regulatoria
+    <section className="mb-10">
+
+      <h2 className="text-3xl font-bold mb-4">
+        Comparación
       </h2>
 
-      <p>
-        Comparación entre Ley 19.628, GDPR y HIPAA.
-      </p>
+      <div className="border rounded p-6">
+
+        <ReactMarkdown>
+          {comparacion}
+        </ReactMarkdown>
+
+      </div>
+
     </section>
   )
 }
