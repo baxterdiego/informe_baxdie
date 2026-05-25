@@ -1,13 +1,22 @@
+import ReactMarkdown from "react-markdown"
+import delitos from "../docs/03_delitos_baxdie.md?raw"
+
 function Delitos() {
   return (
-    <section>
-      <h2 className="text-2xl font-bold mb-4">
+    <section className="mb-10">
+
+      <h2 className="text-3xl font-bold mb-4">
         Delitos Informáticos
       </h2>
 
-      <p>
-        Acceso ilícito y obtención indebida de datos.
-      </p>
+      <div className="border rounded p-6">
+
+        <ReactMarkdown>
+          {delitos}
+        </ReactMarkdown>
+
+      </div>
+
     </section>
   )
 }
