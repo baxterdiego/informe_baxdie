@@ -1,13 +1,22 @@
+import ReactMarkdown from "react-markdown"
+import conclusiones from "../docs/07_conclusiones_baxdie.md?raw"
+
 function Conclusiones() {
   return (
-    <section>
-      <h2 className="text-2xl font-bold mb-4">
+    <section className="mb-10">
+
+      <h2 className="text-3xl font-bold mb-4">
         Conclusiones
       </h2>
 
-      <p>
-        Recomendaciones y reflexión final del caso.
-      </p>
+      <div className="border rounded p-6">
+
+        <ReactMarkdown>
+          {conclusiones}
+        </ReactMarkdown>
+
+      </div>
+
     </section>
   )
 }
