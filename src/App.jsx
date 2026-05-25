@@ -1,3 +1,11 @@
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom"
+
+import Navbar from "./components/Navbar"
+
 import Resumen from "./components/Resumen"
 import Marco from "./components/Marco"
 import Delitos from "./components/Delitos"
@@ -9,29 +17,63 @@ import Prompts from "./components/Prompts"
 
 function App() {
   return (
-    <div className="p-8 space-y-12">
+    <BrowserRouter>
 
-      <h1 className="text-4xl font-bold">
-        Caso Equifax – Análisis Legal y Ciberseguridad
-      </h1>
+      <div className="p-8">
 
-      <Resumen />
+        <h1 className="text-4xl font-bold mb-6">
+          Caso Equifax – Análisis Legal y Ciberseguridad
+        </h1>
 
-      <Marco />
+        <Navbar />
 
-      <Delitos />
+        <Routes>
 
-      <Comparacion />
+          <Route
+            path="/"
+            element={<Resumen />}
+          />
 
-      <Responsabilidades />
+          <Route
+            path="/marco"
+            element={<Marco />}
+          />
 
-      <Datos />
+          <Route
+            path="/delitos"
+            element={<Delitos />}
+          />
 
-      <Conclusiones />
+          <Route
+            path="/comparacion"
+            element={<Comparacion />}
+          />
 
-      <Prompts />
+          <Route
+            path="/responsabilidades"
+            element={<Responsabilidades />}
+          />
 
-    </div>
+          <Route
+            path="/datos"
+            element={<Datos />}
+          />
+
+          <Route
+            path="/conclusiones"
+            element={<Conclusiones />}
+          />
+
+          <Route
+            path="/prompts"
+            element={<Prompts />}
+          />
+
+        </Routes>
+
+      </div>
+
+    </BrowserRouter>
   )
 }
 
