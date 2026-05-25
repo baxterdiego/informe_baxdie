@@ -1,8 +1,14 @@
 function Responsabilidades() {
   return (
-    <div>
-      <h1>Responsabilidades</h1>
-    </div>
+    <section>
+      <h2 className="text-2xl font-bold mb-4">
+        Responsabilidades
+      </h2>
+
+      <p>
+        Responsabilidades penales, civiles y administrativas.
+      </p>
+    </section>
   )
 }
 
