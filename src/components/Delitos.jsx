@@ -1,8 +1,14 @@
 function Delitos() {
   return (
-    <div>
-      <h1>Delitos</h1>
-    </div>
+    <section>
+      <h2 className="text-2xl font-bold mb-4">
+        Delitos Informáticos
+      </h2>
+
+      <p>
+        Acceso ilícito y obtención indebida de datos.
+      </p>
+    </section>
   )
 }
 
