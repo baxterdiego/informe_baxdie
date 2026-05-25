@@ -1,13 +1,22 @@
+import ReactMarkdown from "react-markdown"
+import datos from "../docs/06_datos_baxdie.md?raw"
+
 function Datos() {
   return (
-    <section>
-      <h2 className="text-2xl font-bold mb-4">
+    <section className="mb-10">
+
+      <h2 className="text-3xl font-bold mb-4">
         Datos Personales
       </h2>
 
-      <p>
-        Aplicación de Ley 19.628 y derechos ARCO.
-      </p>
+      <div className="border rounded p-6">
+
+        <ReactMarkdown>
+          {datos}
+        </ReactMarkdown>
+
+      </div>
+
     </section>
   )
 }
