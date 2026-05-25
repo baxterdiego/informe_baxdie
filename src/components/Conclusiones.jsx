@@ -1,8 +1,14 @@
 function Conclusiones() {
   return (
-    <div>
-      <h1>Conclusiones</h1>
-    </div>
+    <section>
+      <h2 className="text-2xl font-bold mb-4">
+        Conclusiones
+      </h2>
+
+      <p>
+        Recomendaciones y reflexión final del caso.
+      </p>
+    </section>
   )
 }
 
