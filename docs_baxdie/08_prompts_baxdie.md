@@ -2,9 +2,9 @@
 
 ## Introducción
 
-Durante el desarrollo del proyecto se utilizó una herramienta de Inteligencia Artificial generativa como apoyo para organizar información, estructurar contenido académico y revisar aspectos técnicos relacionados con ciberseguridad, legislación y documentación.
+Durante el desarrollo del proyecto se utilizó Inteligencia Artificial como apoyo para organizar contenidos, mejorar la redacción y relacionar el caso Equifax con la legislación chilena aplicable.
 
-La IA fue utilizada como herramienta de asistencia y no como sustituto del análisis propio, realizando posteriormente procesos de revisión, corrección y adaptación manual.
+La investigación principal y adaptación del caso fueron realizadas manualmente, utilizando la IA como herramienta complementaria.
 
 ---
 
@@ -12,134 +12,111 @@ La IA fue utilizada como herramienta de asistencia y no como sustituto del anál
 
 ### Prompt 1 – Selección del caso
 
-**Entrada:**
+**Consulta:**
 
 ```text
-Necesito un caso real de ciberseguridad para analizar en un proyecto sobre legislación chilena y delitos informáticos.
+Necesito un caso real de ciberseguridad para analizar delitos informáticos y protección de datos.
 ```
 
-**Resultado obtenido:**
+**Resultado:**
 
-Se propuso el caso **Equifax (2017)** debido a su impacto internacional, filtración masiva de datos y facilidad para relacionarlo con legislación chilena.
-
-**Correcciones realizadas:**
-
-- Se adaptó el caso al escenario hipotético chileno.
-- Se incorporó Ley 21.459 y Ley 19.628.
+Se seleccionó el caso **Equifax (2017)** por permitir aplicar legislación chilena y comparar marcos regulatorios.
 
 ---
 
-### Prompt 2 – Desarrollo del resumen ejecutivo
+### Prompt 2 – Elaboración del resumen ejecutivo
 
-**Entrada:**
+**Consulta:**
 
 ```text
-Crear resumen ejecutivo del caso Equifax indicando qué ocurrió, cuándo pasó, participantes e impacto.
+Crear un resumen ejecutivo del caso Equifax indicando hechos, participantes e impacto.
 ```
 
-**Resultado obtenido:**
+**Resultado:**
 
-Se generó una estructura inicial con:
+Se organizó la información relacionada con:
 
 - Descripción del incidente.
-- Vulnerabilidad Apache Struts.
 - Participantes involucrados.
-- Impactos técnicos y económicos.
+- Impacto técnico y financiero.
+- Consecuencias legales.
 
 **Correcciones realizadas:**
 
-- Se agregó lenguaje jurídico.
-- Se incorporó análisis de responsabilidades.
-- Se ajustó redacción académica.
+- Ajuste de redacción.
+- Adaptación al contexto académico.
 
 ---
 
-### Prompt 3 – Delitos Informáticos
+### Prompt 3 – Marco normativo y delitos informáticos
 
-**Entrada:**
-
-```text
-Relacionar el caso Equifax con la Ley 21.459 sobre Delitos Informáticos.
-```
-
-**Resultado obtenido:**
-
-Se identificaron figuras asociadas a:
-
-- Acceso ilícito.
-- Obtención indebida de datos.
-- Vulneración de confidencialidad.
-
-**Correcciones realizadas:**
-
-- Se eliminó la referencia a “delito informático continuado”.
-- Se corrigió el uso de interceptación ilícita.
-- Se ajustó la tipificación jurídica.
-
----
-
-### Prompt 4 – Protección de datos personales
-
-**Entrada:**
+**Consulta:**
 
 ```text
-Analizar los datos filtrados de Equifax usando Ley 19.628 y derechos ARCO.
+¿Cómo relacionar Equifax con la Ley 21.459 y Ley 19.628?
 ```
 
-**Resultado obtenido:**
+**Resultado:**
 
-Se clasificaron:
+Se obtuvieron referencias para analizar:
 
-- Datos personales.
-- Datos financieros.
+- Delitos informáticos.
+- Protección de datos.
 - Derechos ARCO.
-- Responsabilidades del banco de datos.
 
 **Correcciones realizadas:**
 
-- Se diferenciaron datos sensibles y financieros.
-- Se incorporó Artículo 17.
-- Se ajustó el alcance legal.
+- Adaptación al escenario chileno.
+- Revisión de artículos y normas aplicables.
 
 ---
 
-### Prompt 5 – Recomendaciones y conclusiones
+### Prompt 4 – Tratamiento de datos personales
 
-**Entrada:**
+**Consulta:**
 
 ```text
-Crear recomendaciones de seguridad y reflexión final para el caso Equifax.
+Analizar los datos comprometidos del caso Equifax usando Ley 19.628.
 ```
 
-**Resultado obtenido:**
+**Resultado:**
+
+Se clasificaron datos personales, financieros y mecanismos de protección para los titulares afectados.
+
+**Correcciones realizadas:**
+
+- Distinción entre datos personales y sensibles.
+- Incorporación de derechos ARCO.
+
+---
+
+### Prompt 5 – Conclusiones y recomendaciones
+
+**Consulta:**
+
+```text
+Crear recomendaciones de seguridad para una filtración masiva de datos.
+```
+
+**Resultado:**
 
 Se propusieron medidas relacionadas con:
 
 - Gestión de vulnerabilidades.
-- SIEM.
-- Segmentación.
-- Zero Trust.
-- Gobierno y cumplimiento.
-
-**Correcciones realizadas:**
-
-- Se simplificó lenguaje excesivamente técnico.
-- Se alineó el contenido con la rúbrica académica.
+- Monitoreo y detección.
+- Segmentación de red.
+- Cumplimiento normativo.
 
 ---
 
-## Reflexión sobre el Uso de IA
+## Reflexión Final
 
-La utilización de Inteligencia Artificial permitió acelerar la búsqueda de información, estructurar contenidos y mejorar la organización del proyecto.
+La IA fue utilizada como herramienta de apoyo para estructurar información y revisar contenidos.
 
-Sin embargo, fue necesario realizar validaciones constantes, corregir interpretaciones legales y adaptar el contenido al contexto chileno.
-
-La experiencia demostró que la IA funciona de mejor manera como herramienta de apoyo y revisión, mientras que el análisis crítico, la verificación normativa y las decisiones finales permanecen bajo responsabilidad del estudiante.
+Sin embargo, la selección del caso, análisis jurídico y adaptación normativa fueron desarrollados manualmente, complementando la investigación con asistencia tecnológica.
 
 ---
 
 ## Conclusión
 
-El uso de IA contribuyó a optimizar el desarrollo del proyecto, facilitando la elaboración de documentación técnica y jurídica.
-
-No obstante, el resultado final requirió intervención manual, revisión normativa y ajustes académicos para garantizar coherencia, precisión y adecuación a los criterios de evaluación.
+El uso de IA permitió mejorar la organización y elaboración del informe, manteniendo participación activa en el proceso de investigación y desarrollo del proyecto.
