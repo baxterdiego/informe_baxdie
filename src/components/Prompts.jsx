@@ -1,13 +1,22 @@
+import ReactMarkdown from "react-markdown"
+import prompts from "../docs/08_prompts_baxdie.md?raw"
+
 function Prompts() {
   return (
-    <section>
-      <h2 className="text-2xl font-bold mb-4">
+    <section className="mb-10">
+
+      <h2 className="text-3xl font-bold mb-4">
         Bitácora IA
       </h2>
 
-      <p>
-        Registro de prompts utilizados.
-      </p>
+      <div className="border rounded p-6">
+
+        <ReactMarkdown>
+          {prompts}
+        </ReactMarkdown>
+
+      </div>
+
     </section>
   )
 }
