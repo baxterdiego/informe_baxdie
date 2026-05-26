@@ -3,17 +3,21 @@ import comparacion from "../docs/04_comparacion_baxdie.md?raw"
 
 function Comparacion() {
   return (
-    <section className="mb-10">
+    <section>
 
-      <h2 className="text-3xl font-bold mb-4">
-        Comparación
-      </h2>
+      <div className="bg-white shadow-lg rounded-xl p-8">
 
-      <div className="border rounded p-6">
+        <h2 className="text-3xl font-bold mb-6 text-blue-700">
+          Comparación de Marcos Regulatorios
+        </h2>
 
-        <ReactMarkdown>
-          {comparacion}
-        </ReactMarkdown>
+        <div className="prose max-w-none">
+
+          <ReactMarkdown>
+            {comparacion}
+          </ReactMarkdown>
+
+        </div>
 
       </div>
 

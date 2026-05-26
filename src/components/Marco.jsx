@@ -3,17 +3,21 @@ import marco from "../docs/02_marco_baxdie.md?raw"
 
 function Marco() {
   return (
-    <section className="mb-10">
+    <section>
 
-      <h2 className="text-3xl font-bold mb-4">
-        Marco Normativo
-      </h2>
+      <div className="bg-white shadow-lg rounded-xl p-8">
 
-      <div className="border rounded p-6">
+        <h2 className="text-3xl font-bold mb-6 text-blue-700">
+          Marco Normativo
+        </h2>
 
-        <ReactMarkdown>
-          {marco}
-        </ReactMarkdown>
+        <div className="prose max-w-none">
+
+          <ReactMarkdown>
+            {marco}
+          </ReactMarkdown>
+
+        </div>
 
       </div>
 

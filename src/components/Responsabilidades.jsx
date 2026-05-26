@@ -3,17 +3,21 @@ import responsabilidades from "../docs/05_responsabilidades_baxdie.md?raw"
 
 function Responsabilidades() {
   return (
-    <section className="mb-10">
+    <section>
 
-      <h2 className="text-3xl font-bold mb-4">
-        Responsabilidades
-      </h2>
+      <div className="bg-white shadow-lg rounded-xl p-8">
 
-      <div className="border rounded p-6">
+        <h2 className="text-3xl font-bold mb-6 text-blue-700">
+          Responsabilidades
+        </h2>
 
-        <ReactMarkdown>
-          {responsabilidades}
-        </ReactMarkdown>
+        <div className="prose max-w-none">
+
+          <ReactMarkdown>
+            {responsabilidades}
+          </ReactMarkdown>
+
+        </div>
 
       </div>
 

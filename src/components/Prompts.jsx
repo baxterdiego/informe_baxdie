@@ -3,17 +3,21 @@ import prompts from "../docs/08_prompts_baxdie.md?raw"
 
 function Prompts() {
   return (
-    <section className="mb-10">
+    <section>
 
-      <h2 className="text-3xl font-bold mb-4">
-        Bitácora IA
-      </h2>
+      <div className="bg-white shadow-lg rounded-xl p-8">
 
-      <div className="border rounded p-6">
+        <h2 className="text-3xl font-bold mb-6 text-blue-700">
+          Bitácora de Uso de IA
+        </h2>
 
-        <ReactMarkdown>
-          {prompts}
-        </ReactMarkdown>
+        <div className="prose max-w-none">
+
+          <ReactMarkdown>
+            {prompts}
+          </ReactMarkdown>
+
+        </div>
 
       </div>
 

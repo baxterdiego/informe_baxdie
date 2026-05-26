@@ -3,17 +3,21 @@ import resumen from "../docs/01_resumen_baxdie.md?raw"
 
 function Resumen() {
   return (
-    <section className="mb-10">
+    <section>
 
-      <h2 className="text-3xl font-bold mb-4">
-        Resumen Ejecutivo
-      </h2>
+      <div className="bg-white shadow-lg rounded-xl p-8">
 
-      <div className="border rounded p-6">
+        <h2 className="text-3xl font-bold mb-6 text-blue-700">
+          Resumen Ejecutivo
+        </h2>
 
-        <ReactMarkdown>
-          {resumen}
-        </ReactMarkdown>
+        <div className="prose max-w-none">
+
+          <ReactMarkdown>
+            {resumen}
+          </ReactMarkdown>
+
+        </div>
 
       </div>
 

@@ -3,17 +3,21 @@ import datos from "../docs/06_datos_baxdie.md?raw"
 
 function Datos() {
   return (
-    <section className="mb-10">
+    <section>
 
-      <h2 className="text-3xl font-bold mb-4">
-        Datos Personales
-      </h2>
+      <div className="bg-white shadow-lg rounded-xl p-8">
 
-      <div className="border rounded p-6">
+        <h2 className="text-3xl font-bold mb-6 text-blue-700">
+          Tratamiento de Datos Personales
+        </h2>
 
-        <ReactMarkdown>
-          {datos}
-        </ReactMarkdown>
+        <div className="prose max-w-none">
+
+          <ReactMarkdown>
+            {datos}
+          </ReactMarkdown>
+
+        </div>
 
       </div>
 
