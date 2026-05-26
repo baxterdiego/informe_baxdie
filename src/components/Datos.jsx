@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 import datos from "../docs/06_datos_baxdie.md?raw"
 
 function Datos() {
@@ -13,7 +14,7 @@ function Datos() {
 
         <div className="prose max-w-none">
 
-          <ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {datos}
           </ReactMarkdown>
 

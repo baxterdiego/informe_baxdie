@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 import delitos from "../docs/03_delitos_baxdie.md?raw"
 
 function Delitos() {
@@ -13,7 +14,7 @@ function Delitos() {
 
         <div className="prose max-w-none">
 
-          <ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {delitos}
           </ReactMarkdown>
 

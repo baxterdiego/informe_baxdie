@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 import resumen from "../docs/01_resumen_baxdie.md?raw"
 
 function Resumen() {
@@ -13,7 +14,7 @@ function Resumen() {
 
         <div className="prose max-w-none">
 
-          <ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {resumen}
           </ReactMarkdown>
 

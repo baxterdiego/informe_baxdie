@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 import prompts from "../docs/08_prompts_baxdie.md?raw"
 
 function Prompts() {
@@ -13,7 +14,7 @@ function Prompts() {
 
         <div className="prose max-w-none">
 
-          <ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {prompts}
           </ReactMarkdown>
 

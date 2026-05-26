@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 import responsabilidades from "../docs/05_responsabilidades_baxdie.md?raw"
 
 function Responsabilidades() {
@@ -13,7 +14,7 @@ function Responsabilidades() {
 
         <div className="prose max-w-none">
 
-          <ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {responsabilidades}
           </ReactMarkdown>
 

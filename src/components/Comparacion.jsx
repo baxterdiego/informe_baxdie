@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 import comparacion from "../docs/04_comparacion_baxdie.md?raw"
 
 function Comparacion() {
@@ -13,7 +14,7 @@ function Comparacion() {
 
         <div className="prose max-w-none">
 
-          <ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {comparacion}
           </ReactMarkdown>
 

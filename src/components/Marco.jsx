@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 import marco from "../docs/02_marco_baxdie.md?raw"
 
 function Marco() {
@@ -13,7 +14,7 @@ function Marco() {
 
         <div className="prose max-w-none">
 
-          <ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {marco}
           </ReactMarkdown>
 
