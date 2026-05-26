@@ -19,57 +19,70 @@ function App() {
   return (
     <BrowserRouter>
 
-      <div className="p-8">
+      <div className="min-h-screen bg-slate-100 p-8">
 
-        <h1 className="text-4xl font-bold mb-6">
-          Caso Equifax – Análisis Legal y Ciberseguridad
-        </h1>
+        <div className="max-w-6xl mx-auto">
 
-        <Navbar />
+          <header className="bg-white rounded-2xl shadow-lg p-10 mb-8 text-center">
 
-        <Routes>
+            <h1 className="text-5xl font-bold text-blue-800 mb-4">
+              Caso Equifax
+            </h1>
 
-          <Route
-            path="/"
-            element={<Resumen />}
-          />
+            <p className="text-gray-600 text-lg">
+              Análisis Legal, Delitos Informáticos,
+              Protección de Datos y Normativa Chilena
+            </p>
 
-          <Route
-            path="/marco"
-            element={<Marco />}
-          />
+          </header>
 
-          <Route
-            path="/delitos"
-            element={<Delitos />}
-          />
+          <Navbar />
 
-          <Route
-            path="/comparacion"
-            element={<Comparacion />}
-          />
+          <Routes>
 
-          <Route
-            path="/responsabilidades"
-            element={<Responsabilidades />}
-          />
+            <Route
+              path="/"
+              element={<Resumen />}
+            />
 
-          <Route
-            path="/datos"
-            element={<Datos />}
-          />
+            <Route
+              path="/marco"
+              element={<Marco />}
+            />
 
-          <Route
-            path="/conclusiones"
-            element={<Conclusiones />}
-          />
+            <Route
+              path="/delitos"
+              element={<Delitos />}
+            />
 
-          <Route
-            path="/prompts"
-            element={<Prompts />}
-          />
+            <Route
+              path="/comparacion"
+              element={<Comparacion />}
+            />
 
-        </Routes>
+            <Route
+              path="/responsabilidades"
+              element={<Responsabilidades />}
+            />
+
+            <Route
+              path="/datos"
+              element={<Datos />}
+            />
+
+            <Route
+              path="/conclusiones"
+              element={<Conclusiones />}
+            />
+
+            <Route
+              path="/prompts"
+              element={<Prompts />}
+            />
+
+          </Routes>
+
+        </div>
 
       </div>
 

@@ -6,7 +6,7 @@ function Prompts() {
   return (
     <section>
 
-      <div className="bg-white shadow-lg rounded-xl p-8">
+      <div className="bg-white rounded-2xl shadow-xl p-10 border border-gray-200">
 
         <h2 className="text-3xl font-bold mb-6 text-blue-700">
           Bitácora de Uso de IA
