@@ -12,7 +12,26 @@ function Comparacion() {
           Comparación de Marcos Regulatorios
         </h2>
 
-        <div className="prose max-w-none">
+        <div className="
+        prose
+        max-w-none
+        overflow-x-auto
+
+        prose-table:w-full
+        prose-table:border-collapse
+
+        prose-th:border
+        prose-th:border-gray-400
+        prose-th:bg-blue-100
+        prose-th:p-3
+
+        prose-td:border
+        prose-td:border-gray-300
+        prose-td:p-3
+
+        prose-td:break-words
+        prose-th:break-words
+        ">
 
           <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {comparacion}

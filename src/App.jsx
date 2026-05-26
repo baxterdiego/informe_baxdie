@@ -4,6 +4,8 @@ import {
   Route
 } from "react-router-dom"
 
+import { ShieldAlert } from "lucide-react"
+
 import Navbar from "./components/Navbar"
 
 import Resumen from "./components/Resumen"
@@ -24,6 +26,15 @@ function App() {
         <div className="max-w-6xl mx-auto">
 
           <header className="bg-white rounded-2xl shadow-lg p-10 mb-8 text-center">
+
+            <div className="flex justify-center mb-4">
+
+              <ShieldAlert
+                size={60}
+                className="text-blue-700"
+              />
+
+            </div>
 
             <h1 className="text-5xl font-bold text-blue-800 mb-4">
               Caso Equifax
